@@ -527,7 +527,7 @@ CREATE TABLE `product` (
 
 LOCK TABLES `product` WRITE;
 /*!40000 ALTER TABLE `product` DISABLE KEYS */;
-INSERT INTO `product` VALUES (1,1,'IKEA SOFA',34000,32000,'Comfortable Sofa','E:/Product/Ikea sofa.jpg',244,'SOFA'),(2,2,'Improb Sofa',39000,35000,'Comfoartable Sofa','E:/Product/Improb Sofa.jpg',100,'SOFA'),(3,3,'Nilkamal Bed',40000,39000,'Comfortable Bed','E:/Product/Nilkamal Bed.jpg',100,'Bed');
+INSERT INTO `product` VALUES (1,1,'IKEA SOFA',34000,32000,'Comfortable Sofa','E:/Product/Ikea sofa.jpg',100,'SOFA'),(2,2,'Improb Sofa',39000,35000,'Comfoartable Sofa','E:/Product/Improb Sofa.jpg',100,'SOFA'),(3,3,'Nilkamal Bed',40000,39000,'Comfortable Bed','E:/Product/Nilkamal Bed.jpg',100,'Bed');
 /*!40000 ALTER TABLE `product` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -544,15 +544,9 @@ CREATE TABLE `qnty_mini` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `qnty_mini`
---
 
-LOCK TABLES `qnty_mini` WRITE;
-/*!40000 ALTER TABLE `qnty_mini` DISABLE KEYS */;
-INSERT INTO `qnty_mini` VALUES (100,145.264);
-/*!40000 ALTER TABLE `qnty_mini` ENABLE KEYS */;
-UNLOCK TABLES;
+
+
 
 --
 -- Table structure for table `reviews`
